@@ -9,10 +9,10 @@ else if ( name == "Sara")
 {   
     alert ( " hey Sara , plz try Again later") ;
 }
-else { var Brand = prompt ('plz select what brand you want') ;
+var Brand = prompt ('plz select what brand you want') ;
 
 
-} 
+
 
 if (Brand == 'sephora')
 {  
