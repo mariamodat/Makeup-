@@ -1,22 +1,26 @@
 var makeupType = prompt ('what do you want to purchase ?' ) ; 
 while (makeupType == 'lipstick' )
 { 
-var type =prompt ('plz enter maskara or eyeliner' );
-if (type == 'maskara'  || type == 'eyeliner')
+if (makeupType !== 'maskara'  || makeupType  !== 'eyeliner')
 {
- var numOfItems =prompt ('how many of maskara you want to add to your Cart ?') ;
- var result = numOfItems ;
-for ( i=0 ; i< 5 ; i++)
+    var enter = prompt('plz enter maskara') ;
+ var numOfItems =prompt ('how many of maskara you want to add to your Cart ?') ; 
+
+for ( var i=0 ; i< numOfItems ; i++) 
 {
-document.write(result) ; 
-var order = '<img src " maskara" /'> ;
+document.write(numOfItems) ; 
+document.write('<img src ="https://st.depositphotos.com/1441511/4328/i/600/depositphotos_43287677-stock-photo-woman-with-beautiful-makeup-and.jpg"/>');
 
 
 }
 
 }
-else {
 
-document.write (' sorry you cant add this number at the same order, plz try again later') ; 
+else { 
+
+document.write('sorry items does not match') ;
+
 }
+
 }
+
