@@ -5,14 +5,15 @@ var type =prompt ('plz enter maskara or eyeliner' );
 if (type == 'maskara'  || type == 'eyeliner')
 {
  var numOfItems =prompt ('how many of maskara you want to add to your Cart ?') ;
- var result = '' ;
-for ( i=0 ; i< numOfItems ; i++)
+ var result = numOfItems ;
+for ( i=0 ; i< 5 ; i++)
 {
-result = result +numOfItems ;
+document.write(result) ; 
+var order = '<img src " maskara" /'> ;
 
 
 }
-document.write(result) ;
+
 }
 else {
 
