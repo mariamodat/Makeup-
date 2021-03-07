@@ -2,7 +2,7 @@ var name = prompt ( "please enter your user name") ;
 if ( name == "Mariam") 
 {   
 alert(" Your name is Mariam ") ; 
-
+document.write ('Hello mariam , add items to your cart');
 
 }
 else if ( name == "Sara") 
