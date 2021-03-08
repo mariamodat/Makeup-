@@ -1,0 +1,82 @@
+/*    
+1.make the background of body img (done )
+2. change nav style margin and links 
+3. change font type 
+4. make boxes for < p > 
+5. edit imgs size and position 
+*/
+body {
+    background-image: url(MakeupGoals4.jpg);
+}
+ .linkscol {
+
+margin: 10px 10px;
+padding: 10px;
+background-color: #e0c1af;
+border: 1px solid #ee926d;
+color: #14213d;
+ }
+.box {
+ margin: 10px 30px;
+ padding: 20px;
+ background-color: #9e2a2b;
+ border: 1px solid #080808;
+ color: #080808;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: xx-large;
+}
+
+
+
+
+h1 {
+color: #080808;
+font-size: 200%;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+}
+
+img {
+
+margin: 60px;
+
+}
+
+a {
+
+margin: 5px;
+padding: 5px;
+background-color:#212529 ;
+color: #adb5bd ;
+border: #080808;
+
+}
+
+nav {
+
+font-style: italic;
+margin: 60px;
+}
+#h3style {
+
+    color: #9d0208;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+}
+
+
+ #divstyle {
+width: 300px;
+height: 250px;
+background-color: #ee926d;
+
+ }
+ ul {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bolder;
+color: #718355;
+ }
